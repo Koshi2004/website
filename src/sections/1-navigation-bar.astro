@@ -20,8 +20,10 @@ const { hideLogo } = Astro.props;
 			examsmora@gmail.com
 		</HeaderContactLink>
 		<HeaderContactIcon name="facebook" />
-		<HeaderContactIcon name="whatsapp" />
+		<HeaderContactIcon name="youtube" />
+		<HeaderContactIcon name="instagram" />
 		<HeaderContactIcon name="linkedin" />
+		<HeaderContactIcon name="whatsapp" />
 		<HeaderContactIcon name="viber" />
 		<HeaderContactIcon name="telegram" />
 	</header>
@@ -78,7 +80,7 @@ const { hideLogo } = Astro.props;
 	 * @param {HTMLElementEventMap["click"]} event
 	 * @returns {any}
 	 */
-	function navClickListener(event) {
+	function navClickListener(event: MouseEvent) {
 		const targetElement = event.target;
 		if (!(targetElement instanceof HTMLAnchorElement)) {
 			return;
@@ -92,7 +94,9 @@ const { hideLogo } = Astro.props;
 		}
 	}
 
-	nav.addEventListener("click", navClickListener);
+	if (nav) {
+		nav.addEventListener("click", navClickListener);
+	}
 
 	function checkNavOpenedOnMobile() {
 		const navToggles = document.querySelectorAll("#nav-bar-toggle");
