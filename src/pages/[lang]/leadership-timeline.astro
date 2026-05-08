@@ -1,7 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
-import { langStaticRoutes } from "../../i18n/ui";
+import { LIST_OF_LANGUAGES } from "../../i18n/ui";
 import type { GetStaticPaths } from "astro";
 import NavigationBar from "../../sections/1-navigation-bar.astro";
 import HallOfFameContent from "../../data/past-leaderships.json";
@@ -12,7 +12,9 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 export const getStaticPaths = (() => {
-	return langStaticRoutes;
+	return LIST_OF_LANGUAGES.map((lang) => ({
+		params: { lang },
+	}));
 }) satisfies GetStaticPaths;
 ---
 
@@ -53,13 +55,13 @@ export const getStaticPaths = (() => {
 								</span>
 								<p class="mt-2 col-start-1">
 									BSc. Eng. (Hons)
-									{member.status === "reading" ? " (Reading)" : null},
+									{"status" in member && member.status === "reading" ? " (Reading)" : null},
 									<br />
-									{DEPARTMENTS[member.department_code][lang]},<br />
+									{DEPARTMENTS[member.department_code]?.[lang]},<br />
 									{t("committee__university")}
 								</p>
 								<div class="col-start-2 row-start-1 row-span-3 flex flex-col gap-1 mt-1">
-									{member.contact?.web ? (
+									{member.contact && "web" in member.contact && member.contact.web ? (
 										<a
 											href={member.contact.web}
 											target="_blank"

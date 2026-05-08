@@ -62,10 +62,13 @@ for (const d of EXAM_CENTRES.districts) {
  * @prop {string} committee__vice_president_name
  * @prop {string} committee__vice_president_post
  * @prop {string} committee__vice_secretary_post
+ * @prop {string} committee__vice_treasurer_post
  * @prop {string} committee__tech_coordinator_post
  * @prop {string} committee__exams_coordinator_post
  * @prop {string} committee__districts_coordinator_post
  * @prop {string} committee__marketing_coordinator_post
+ * @prop {string} committee__logistics_coordinator_post
+ * @prop {string} committee__finance_coordinator_post
  * @prop {string} committee__university
  * @prop {string} looking_for_past_papers__description
  * @prop {string} footer_title_1
@@ -271,19 +274,19 @@ const UI_STRINGS_EN = {
 	// 	"Now It is even easier to find the paper you need. We have advanced filtering options. And we divided all the questions for each year based on the sub-sections of each subject. Now you can practice our past papers section-wise.",
 	looking_for_past_papers__button: "View Pastpapers",
 
-	committee__title: "Mora Exams 25 | Committee",
-	committee__president_name: "Harshan R.",
+	committee__title: "Mora Exams 26 | Committee",
+	committee__president_name: "Jazan M.",
 	committee__president_post: "President",
-	committee__secretary_name: "Mathumilan K.",
+	committee__secretary_name: "Maathumai S.",
 	committee__secretary_post: "Secretary",
-	committee__treasurer_name: "Pirasanth V.",
+	committee__treasurer_name: "Sanjuthan Y.",
 	committee__treasurer_post: "Treasurer",
-	committee__vice_president_name: "Babijana J.",
+	committee__vice_president_name: "Gowrithasan V.",
 	committee__vice_president_post: "Vice President",
-	committee__president_faculty: "Electrical Engineering",
-	committee__secretary_faculty: "Mechanical Engineering",
-	committee__treasurer_faculty: "Computer Science and Engineering",
-	committee__vice_president_faculty: "Computer Science and Engineering",
+	committee__president_faculty: "Mechanical Engineering",
+	committee__secretary_faculty: "Computer Science and Engineering",
+	committee__treasurer_faculty: "Electronics and Telecommunication Engineering",
+	committee__vice_president_faculty: "Chemical and Process Engineering",
 	committee__university: "University of Moratuwa",
 
 	footer_title_1: "Mora Exams",
@@ -517,10 +520,13 @@ const UI_STRINGS_EN = {
 	index__view_leadership_timeline: "View All",
 	leadership_timeline__title: "Leadership Timeline",
 	committee__vice_secretary_post: "Vice Secretary",
+	committee__vice_treasurer_post: "Vice Treasurer",
 	committee__tech_coordinator_post: "Tech Coordinator",
 	committee__exams_coordinator_post: "Exams Coordinator",
 	committee__districts_coordinator_post: "Districts Coordinator",
 	committee__marketing_coordinator_post: "Marketing Coordinator",
+	committee__logistics_coordinator_post: "Logistics Coordinator",
+	committee__finance_coordinator_post: "Finance Coordinator",
 	leadership_timeline__description:
 		"A record of Mora Exams’ leadership over the years, showcasing the dedicated individuals who have guided our committees and upheld our values through each term.",
 
@@ -551,19 +557,19 @@ const UI_STRINGS_TA = {
 	find_your_examination_centres__description: `எங்களிடம் ${totalExamCentres} பரீட்சை மைய வலையமைப்புகள் கிட்டத்தட்ட முழு தீவையும் உள்ளடக்கி உள்ளன. தேர்வு மையங்களைப் பார்க்க உங்கள் மாவட்டத்தைத் தேர்வு செய்யவும்.`,
 	looking_for_past_papers__title: "கடந்த கால வினாத்தாள்களை தேடுகின்றீர்களா?",
 	timetable__title: "நேர அட்டவணை 2025",
-	committee__title: "Mora Exams 2025 | செயற்குழு",
-	committee__president_name: "ஹர்ஷன் ற.",
-	committee__secretary_name: "மதுமிலன் கே.",
-	committee__treasurer_name: "பிரசாந் வை.",
-	committee__vice_president_name: "பபிஜனா ஜெ.",
-	committee__president_post: "தலைவர்",
-	committee__secretary_post: "செயலாளர்",
-	committee__treasurer_post: "பொருளாளர்",
-	committee__vice_president_post: "உப தலைவர்",
-	committee__president_faculty: "மின் பொறியியல்",
-	committee__secretary_faculty: "இயந்திர பொறியியல்",
-	committee__treasurer_faculty: "கணனி விஞ்ஞானமும் பொறியியலும்",
-	committee__vice_president_faculty: "கணனி விஞ்ஞானமும் பொறியியலும்",
+	committee__title: "Mora Exams 2026 | செயற்குழு",
+	committee__president_name: "யசான் ம.",
+	committee__secretary_name: "மாதுமை சு.",
+	committee__treasurer_name: "சஞ்சுதன் யோ.",
+	committee__vice_president_name: "கௌரிதாசன் வி.",
+	committee__president_post: "President",
+	committee__secretary_post: "Secretary",
+	committee__treasurer_post: "Treasurer",
+	committee__vice_president_post: "Vice President",
+	committee__president_faculty: "இயந்திர பொறியியல்",
+	committee__secretary_faculty: "கணனி விஞ்ஞானமும் பொறியியலும்",
+	committee__treasurer_faculty: "இலத்திரனியல் மற்றும் தொலைத்தொடர்பு பொறியியல்",
+	committee__vice_president_faculty: "இரசாயன மற்றும் செயல்முறை பொறியியல்",
 	committee__university: "மொறட்டுவைப் பல்கலைக்கழகம்",
 	looking_for_past_papers__description:
 		"இப்போது உங்களுக்குத் தேவையான கடந்தகால வினாத்தாள்களை கண்டுபிடிப்பது இன்னும் எளிதாகிவிட்டது. எங்களிடம் மேம்பட்ட வடிகட்டுதல் தெரிவுகள் உள்ளன. மேலும் ஒவ்வொரு பாடத்தின் அடிப்படையில் ஒவ்வொரு ஆண்டுக்கான அனைத்து கேள்விகளையும் பிரித்துள்ளோம். இப்போது நீங்கள் எங்கள் கடந்தகால வினாத்தாள்களை பிரிவு வாரியாக பயிற்சி செய்யலாம்.",
@@ -790,10 +796,13 @@ const UI_STRINGS_TA = {
 	index__view_leadership_timeline: "View All",
 	leadership_timeline__title: "Leadership Timeline",
 	committee__vice_secretary_post: "Vice Secretary",
+	committee__vice_treasurer_post: "Vice Treasurer",
 	committee__tech_coordinator_post: "Tech Coordinator",
 	committee__exams_coordinator_post: "Exams Coordinator",
 	committee__districts_coordinator_post: "Districts Coordinator",
 	committee__marketing_coordinator_post: "Marketing Coordinator",
+	committee__logistics_coordinator_post: "Logistics Coordinator",
+	committee__finance_coordinator_post: "Finance Coordinator",
 	leadership_timeline__description:
 		"A record of Mora Exams’ leadership over the years, showcasing the dedicated individuals who have guided our committees and upheld our values through each term.",
 	results_title: "Mora Exams 2025 - Results",

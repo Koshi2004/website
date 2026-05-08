@@ -25,6 +25,12 @@ const faculty = t(`committee__${post}_faculty`);
 			class="w-full h-auto rounded-full aspect-square"
 			src={Astro.props.img}
 			alt={`${displayPost} - ${name} (${faculty})`}
+			widths={[220, 320, 420]}
+			sizes="(max-width: 640px) 70vw, (max-width: 1024px) 35vw, 18vw"
+			format="avif"
+			quality={55}
+			loading="lazy"
+			decoding="async"
 		/>
 	</div>
 	<div class="text-center p-0">

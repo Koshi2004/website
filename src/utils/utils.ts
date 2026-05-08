@@ -148,6 +148,10 @@ export const DEPARTMENTS: {
 		en: "Electronics & Telecommunication Engineering",
 		ta: "இலத்திரனியல் மற்றும் தொலைத்தொடர்பு பொறியியல்",
 	},
+	tmle: {
+		en: "Transport Management & Logistics Engineering",
+		ta: "போக்குவரத்து முகாமைத்துவம் மற்றும் விநியோக பொறியியல்",
+	},
 };
 
 export function assertNever(x: never): never {
