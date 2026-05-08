@@ -1,4 +1,139 @@
-[
+[	
+	{
+		"year": "2026",
+		"organizing_committee": [
+			{
+				"name_en": "Jazan M.",
+				"name_ta": "ஜசான் ம.",
+				"department_code": "me",
+				"position": "president",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/jazan-mahendran-b62968385/"
+				},
+				"status": "reading"
+			},
+			{
+				"name_en": "Maathumai S.",
+				"name_ta": "மாதுமை சு.",
+				"department_code": "cse",
+				"position": "secretary",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/maathumai-suventhan-90ba3b336/"
+				},
+				"status": "reading"
+			},
+			{
+				"name_en": "Sanjuthan Y.",
+				"name_ta": "சஞ்சுதன் யோ.",
+				"department_code": "entc",
+				"position": "treasurer",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/yoganantheswarasarma-sanjuthan-948077337/"
+				},
+				"status": "reading"
+			},
+			{
+				"name_en": "Gowrithasan V.",
+				"name_ta": "கௌரிதாசன் வி.",
+				"department_code": "cpe",
+				"status": "reading",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/gowrithasan-vimaleswaran-2908b1337/"
+				},
+				"position": "vice_president"
+			},
+			{
+				"name_en": "Kopithan P.",
+				"name_ta": "கோபிதன் பூ.",
+				"department_code": "cpe",
+				"status": "reading",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/poopalapillai-kopithan-9ba06a337/"
+				},
+				"position": "vice_secretary"
+			},
+			{
+				"name_en": "Abishan K.",
+				"name_ta": "அபிஷன் க.",
+				"department_code": "cse",
+				"status": "reading",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/poopalapillai-kopithan-9ba06a337/"
+				},
+				"position": "vice_treasurer"
+			},
+			{
+				"name_en": "Kovarththany S.",
+				"name_ta": "கோவர்த்தனி சொ.",
+				"department_code": "bme",
+				"status": "reading",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/kovarththany-sokkanathan-139244337/"
+				},
+				"position": "finance_coordinator"
+			},
+			{
+				"name_en": "Sathjaharan P.",
+				"name_ta": "சத்ஜகரன் ப.",
+				"department_code": "entc",
+				"status": "reading",
+				"position": "exams_coordinator",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/sathjaharan-paramalingam-b408b4337/"
+				}
+			},
+			{
+				"name_en": "Praveenan P.",
+				"name_ta": "பிரவீனன் ப.",
+				"department_code": "cpe",
+				"position": "marketing_coordinator",
+				"status": "reading",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/praveenan-parameswaran-855b712a5/"
+				}
+			},
+			{
+				"name_en": "Harivishnu S.",
+				"name_ta": "ஹரிவிஷ்ணு ஶ்ரீ.",
+				"department_code": "cse",
+				"status": "reading",
+				"position": "districts_coordinator",
+				"contact": {
+					"linkedin": "https://lk.linkedin.com/in/harivishnu-srikumaran-32a8b3337/"
+				}
+			},
+			{
+				"name_en": "Kalaippiriyan J.",
+				"name_ta": "கலைப்பிரியன் ஜெ.",
+				"department_code": "cse",
+				"position": "tech_coordinator",
+				"status": "reading",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/kalaiblazer/"
+				}
+			},
+			{
+				"name_en": "Susayththanan R.",
+				"name_ta": "சுசேத்தனன் ர.",
+				"department_code": "entc",
+				"status": "reading",
+				"position": "districts_coordinator",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/susayththanan-ravindran-001002328/"
+				}
+			},
+			{
+				"name_en": "Thanushan T.",
+				"name_ta": "தனுஷன் தா.",
+				"department_code": "tmle",
+				"status": "reading",
+				"position": "logistics_coordinator",
+				"contact": {
+					"linkedin": "https://www.linkedin.com/in/thanushan-thajmokan-538991355/"
+				}
+			}
+		]
+	},
 	{
 		"year": "2025",
 		"organizing_committee": [

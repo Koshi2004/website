@@ -20,12 +20,14 @@ import FeedbackFromAchievers from "../../sections/14-feedback-from-achievers.ast
 // import Pathway from "../../sections/z_pathway.astro";
 import Footer from "../../sections/16-footer.astro";
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
-import { langStaticRoutes } from "../../i18n/ui";
+import { LIST_OF_LANGUAGES } from "../../i18n/ui";
 
 const t = useTranslations(getLangFromUrl(Astro.url));
 
 export const getStaticPaths = (() => {
-	return langStaticRoutes;
+	return LIST_OF_LANGUAGES.map((lang) => ({
+		params: { lang },
+	}));
 }) satisfies GetStaticPaths;
 ---
 
