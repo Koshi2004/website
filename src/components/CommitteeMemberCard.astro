@@ -22,7 +22,7 @@ const faculty = t(`committee__${post}_faculty`);
 <div class="p-3 rounded-xl bg-[#fff]">
 	<div class="w-full h-auto rounded-full p-4">
 		<Image
-			class="w-full h-[320px] rounded-full object-contain"
+			class="w-full h-auto rounded-full aspect-square"
 			src={Astro.props.img}
 			alt={`${displayPost} - ${name} (${faculty})`}
 			widths={[220, 320, 420]}
